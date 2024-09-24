@@ -1,0 +1,15 @@
+body {
+    background-image: url(stars.gif);
+    color: white;
+    display: block;
+}
+
+.main {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 10 round;
+    background-color: black;
+    
+}
+
+  

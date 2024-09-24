@@ -1,0 +1,96 @@
+:root {
+    --misty_rose: #FAE3E3;
+    --unbleached_silk: #F7D4BC;
+    --pink_lavender: #CFA5B4;
+    --middle_purple: #C98BB9;
+    --chinese_violet: #846B8A;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+@media only screen and (max-width: 768px) {
+    div.side, div#content {
+        width: 100%;
+        float: left;
+    }
+    img {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+body {
+    background-image: linear-gradient(#CFA5B4, #C98BB9);
+}
+
+div {
+    background-color: var(--chinese_violet);
+}
+
+.side {
+    width: 25%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    
+}
+
+h1.name {
+    text-align: center;
+}
+
+#content {
+
+    width: 70%;
+    float: right;
+    padding-left: 2%;
+    margin: 1%;
+}
+
+p#text, dl#text {
+    color: var(--misty_rose);
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.links {
+    text-align: center;
+}
+
+a#text {
+    color: var(--pink_lavender);
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a#text:hover, a#text:active {
+    color: var(--unbleached_silk);
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+dt, #esittely {
+    font-size: larger;
+    color: var(--misty_rose);
+    font-family: Helvetica, sans-serif;
+}
+dd {
+    font-size: medium;
+}
+
+h1 {
+    color: var(--unbleached_silk);
+    font-family: Helvetica;
+        font-variant:small-caps;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
